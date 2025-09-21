@@ -21,7 +21,7 @@ spec:
   channel: stable
   installPlanApproval: Automatic
   name: compliance-operator
-  source: do380-catalog-cs
+  #source: do380-catalog-cs
   sourceNamespace: openshift-marketplace
 ---
 apiVersion: compliance.openshift.io/v1alpha1
