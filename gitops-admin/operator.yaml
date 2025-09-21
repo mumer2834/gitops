@@ -38,5 +38,5 @@ metadata:
   name: nist-moderate
   namespace: openshift-compliance
   annotations:
-    CHANGE_ME
-#add new content here
+    argocd.argoproj.io/sync-options: SkipDryRunOnMissingResource=true
+    argocd.argoproj.io/sync-wave: "1"
